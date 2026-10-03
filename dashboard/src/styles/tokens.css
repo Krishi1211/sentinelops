@@ -1,0 +1,16 @@
+:root {
+  --color-bg-dark: #0B1220;
+  --color-panel-dark: #121B2E;
+  --color-text-primary: #E4E9F2;
+  --color-text-secondary: #6B7A99;
+
+  /* Agent Colors */
+  --color-detector: #4FC3E0;      /* Cyan-blue */
+  --color-diagnostician: #E0A64F; /* Amber */
+  --color-remediator: #5FD68A;    /* Green */
+  --color-alert: #E0574F;         /* Red */
+
+  /* Fonts */
+  --font-chrome: 'Space Grotesk', sans-serif;
+  --font-logs: 'JetBrains Mono', monospace;
+}

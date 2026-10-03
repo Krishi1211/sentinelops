@@ -1,0 +1,77 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    background-color: #0B1220;
+    color: #E4E9F2;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+/* Custom premium scrollbar for monospace logs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B1220;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F2D44;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2E3F59;
+}
+
+/* Custom Pulsing and Glow Classes */
+.glow-detector {
+  box-shadow: 0 0 15px rgba(79, 195, 224, 0.25);
+  border-color: rgba(79, 195, 224, 0.4);
+}
+
+.glow-diagnostician {
+  box-shadow: 0 0 15px rgba(224, 166, 79, 0.25);
+  border-color: rgba(224, 166, 79, 0.4);
+}
+
+.glow-remediator {
+  box-shadow: 0 0 15px rgba(95, 214, 138, 0.25);
+  border-color: rgba(95, 214, 138, 0.4);
+}
+
+.glow-alert {
+  box-shadow: 0 0 15px rgba(224, 87, 79, 0.35);
+  border-color: rgba(224, 87, 79, 0.5);
+}
+
+/* Restrained animations */
+@keyframes soft-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(0.97);
+  }
+}
+
+.animate-soft-pulse {
+  animation: soft-pulse 2s infinite ease-in-out;
+}
+
+@keyframes line-draw {
+  from {
+    stroke-dashoffset: 100;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.path-drawing {
+  stroke-dasharray: 10;
+  animation: line-draw 5s linear infinite;
+}

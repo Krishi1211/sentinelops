@@ -1,0 +1,7 @@
+boto3
+fastapi
+uvicorn
+mcp
+ollama
+requests
+websockets
