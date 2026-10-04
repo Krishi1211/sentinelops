@@ -1,6 +1,6 @@
 {
   "active_fault": "security_group",
-  "approval_token": "SO-F0300DFA",
-  "approved": false,
-  "status": "awaiting_approval"
+  "approval_token": "SO-B7EF1737",
+  "approved": true,
+  "status": "resolved"
 }

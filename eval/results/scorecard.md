@@ -10,3 +10,5 @@ This scorecard records performance benchmarks (Accuracy, Tool Call Count, Halluc
 | 2026-07-12 22:00:27 | security_group | FAIL | 0 | 0 | 16.1s |
 | 2026-07-12 22:46:17 | config_regression | PASS | 5 | 0 | 26.2s |
 | 2026-07-12 22:46:54 | security_group | PASS | 5 | 0 | 28.2s |
+| 2026-10-03 17:03:40 | config_regression | PASS | 6 | 0 | 40.2s |
+| 2026-10-03 17:04:24 | security_group | PASS | 6 | 0 | 38.2s |
